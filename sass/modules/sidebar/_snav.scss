@@ -1,0 +1,20 @@
+.sNav {
+    font-size: 1.45rem;
+    ul {
+        margin: 5px -15px 0;
+    }
+    li {
+        margin-top: 13px;
+        padding: 12px 0 12px 14%;
+
+        &:hover {
+            background-color: $sidebar-button-hover;
+            cursor: pointer;
+            color: $white;
+        }
+    }
+    i,
+    span {
+        margin-right: 10px;
+    }
+}
