@@ -1,16 +1,13 @@
 @charset "UTF-8";
 
-body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #505050; }
+/* body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #505050; }
 
 #topPanel { margin:0; position:relative; }
 
-.bannerContainer { padding:0; }
+.bannerContainer { padding:0; } 
 
-#bottomPanel {
-  margin:0;
-}
 
-.sidebarC { 
+ .sidebarC { 
     background-color:#505050; 
     color: white;
     position:relative;
@@ -34,71 +31,24 @@ body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #50505
 .sidebarC header p { 
     display:inline;
     padding-left:10px;
-}
+} 
 
-.yellowBoxNav {
-    position:relative;
-    display:inline-block;
-    /*float:right;*/
-    margin-right:30px;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    background-color:#f3d83f;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 55px;
-    height: 45px;
-    color:white;
-    z-index: 25;
-}
 
-.yellowBoxNav span { position:relative; top: 8px; font-size:3rem; }
-
-.dropdown-menu { margin-top:25px; }
-.dropdown-menu-right { right:-15px; }
-
-.mainHead {
-    height:110px;
-    background-color: #ffffff;
-}
-.mainC_nav { position:absolute; right:0; margin-right:30px; margin-top:35px; z-index:100; cursor:pointer;}
-.mainC_nav li { position:relative; margin-right:5px; }
-.mainC_nav span { font-size:3rem; color:#b7bbc2; }
-
-#mBubble { 
-    position:absolute; 
-    background-color:#853c37; 
-    width:15px; height:15px; 
-    font-size:1rem; 
-    left:25px; 
-    top:-3px; 
-}
-
-.clLogo { 
-    position:relative;
-    top: 50%;
-    transform: translateY(-50%);
-    left:40px;
-}
 
 .sNav { font-size:1.45rem; }
 .sNav ul { margin: 5px -15px 0; }
 .sNav ul li { margin-top:13px; padding:12px 0 12px 14%; }
 .sNav ul li:hover { background-color:#333; cursor:pointer; color:white; }
-.sNav i, .sNav span { margin-right:10px;}
+.sNav i, .sNav span { margin-right:10px;} 
 
-.profileImg {
-    border: 3px solid white;
-}
 
-.imgText {
+ .imgText {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     left:12%;
-}
-
+} 
+ 
 .profPanel { 
     width:445px; 
     height:150px; 
@@ -123,7 +73,27 @@ body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #50505
 .profPanel p:nth-child(2) { font-size:2.2rem; color:#690800; margin-top:-8px; }
 .profPanelText { position:relative; top:10px; left:20px; }
 .profPanel ul { color:#9e9e9e; padding-top:5px; font-weight:300; }
-.profPanel span { margin-right:8px; }
+.profPanel span { margin-right:8px; } */
+
+/* END here */
+
+#mBubble { 
+    position:absolute; 
+    background-color:#853c37; 
+    width:15px; height:15px; 
+    font-size:1rem; 
+    left:25px; 
+    top:-3px; 
+}
+
+#bottomPanel {
+    margin:0;
+  }
+
+
+.mainC_nav { position:absolute; right:0; margin-right:30px; margin-top:35px; z-index:100; cursor:pointer;}
+    .mainC_nav li { position:relative; margin-right:5px; }
+    .mainC_nav span { font-size:3rem; color:#b7bbc2; }
 
 .calendar, .trending, .sports { 
     height:350px;
@@ -135,6 +105,7 @@ body { font-family: 'Lato', sans-serif; font-size:16px; background-color: #50505
 .box2, .box3 { padding-left:0; }
 
 #mainImg { width: 100%; }
+
 
 .courseStuff, .calendarStuff, .lowerPanelNav, .footerStuff { margin:0; }
 .courseInfo { 
