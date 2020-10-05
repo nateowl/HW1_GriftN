@@ -1,12 +1,13 @@
 .profPanel {
     width: 445px;
     height: 150px;
-    background-color: #f2f2f2;
+    background-color: $off-white-secondary;
     position: absolute;
     left: 40px;
     top: 70px;
-    border-radius: 8px;
-    box-shadow: 3px 3px 3px 0px #666;
+    box-shadow: 3px 3px 3px 0px $prof-panel-background;
+
+    @include borderRadius(8px);
 
     img {
         position: absolute;
@@ -20,18 +21,18 @@
         margin-bottom: 3px;
 
         span {
-            color: #9e9e9e;
+            color: $prof-panel-nav;
         }
     }
 
     p:nth-child(2) {
         font-size: 2.2rem;
-        color: #690800;
+        color: $prof-panel-top;
         margin-top: -8px;
     }
 
     ul {
-        color: #9e9e9e;
+        color: $prof-panel-nav;
         padding-top: 5px;
         font-weight: 300;
     }

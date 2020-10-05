@@ -1,7 +1,7 @@
 body {
-    font-family: "Lato", sans-serif;
-    font-size: 16px;
-    background-color: #505050;
+    font-family: $main-font;
+    font-size: $main-fontsize;
+    background-color: $body-background;
 }
 
 #topPanel {
@@ -14,20 +14,21 @@ body {
 }
 
 .bodyC {
-    position:relative;
-    padding:0;
-    background-color:#f1f1f1;
-    margin-right:-15px;
+    position: relative;
+    padding: 0;
+    background-color: $off-white;
+    margin-right: -15px;
 }
 
-.clLogo { 
-    position:relative;
+// Main Logo at top of page
+.clLogo {
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
-    left:40px;
+    left: 40px;
 }
 
 .mainHead {
-    height:110px;
-    background-color: #ffffff;
+    height: 110px;
+    background-color: $white;
 }
