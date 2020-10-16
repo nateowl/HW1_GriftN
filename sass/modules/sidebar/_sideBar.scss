@@ -1,11 +1,11 @@
 .sidebarC {
-    background-color: #505050;
-    color: white;
+    background-color: $body-background;
+    color: $white;
     position: relative;
 
     header {
         position: relative;
-        background-color: #690800;
+        background-color: $prof-panel-top;
         height: 110px;
         font-size: 1.25rem;
         margin: 0 -15px;
@@ -20,7 +20,7 @@
 // Top of Sidebar User section
 
 .profileImg {
-    border: 3px solid white;
+    border: 3px solid $white;
 }
 
 .imgText {

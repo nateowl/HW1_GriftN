@@ -1,41 +1,19 @@
-// Side nav
-.sNav {
-    font-size: 1.45rem;
-    ul {
-        margin: 5px -15px 0;
-    }
-    li {
-        margin-top: 13px;
-        padding: 12px 0 12px 14%;
-
-        :hover {
-            background-color: #333;
-            cursor: pointer;
-            color: white;
-        }
-    }
-    i,
-    span {
-        margin-right: 10px;
-    }
-}
 
 // YellowBox Nav
 
 .yellowBoxNav {
     position: relative;
     display: inline-block;
-    /*float:right;*/
     margin-right: 30px;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    background-color: #f3d83f;
+    background-color: $nav-button;
     top: 50%;
     transform: translateY(-50%);
     width: 55px;
     height: 45px;
-    color: white;
+    color: $white;
     z-index: 25;
 
     span {

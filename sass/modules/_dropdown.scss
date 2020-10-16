@@ -1,0 +1,30 @@
+.dropdown-menu {
+    padding-top: 0;
+
+    .circleI {
+        width: 30px;
+        height: 30px;
+        background-color: $dropdown-circle-background;
+        color: $dropdown-color;
+        text-align: center;
+        font-size: 1.7rem;
+        margin: 0 10px;
+        padding-top: 5px;
+
+        @include borderRadius(50%);
+
+    }
+
+    li {
+        position: relative;
+        margin-right: 0; 
+
+        &:hover .emptyCircle {
+            background-color: $white;
+        }
+
+        &:hover .circleI {
+            background-color: $white;
+        }
+    }
+}

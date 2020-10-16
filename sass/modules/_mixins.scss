@@ -1,0 +1,6 @@
+
+// For compatibility
+@mixin borderRadius($value) {
+    border-radius: $value;
+    -moz-border-radius: $value;
+}
